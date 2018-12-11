@@ -3,7 +3,5 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/bigfishtv/prettier-config",
-  "author": "Adam Royle <adam@bigfish.tv>",
-  "license": "MIT",
-  "private": false
+  "license": "MIT"
 }
