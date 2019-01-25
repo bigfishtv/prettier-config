@@ -1,6 +1,6 @@
 {
   "name": "@bigfishtv/prettier-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "repository": "https://github.com/bigfishtv/prettier-config",
   "license": "MIT"
