@@ -5,19 +5,19 @@ module.exports = {
   singleQuote: true,
   semi: false,
   jsxBracketSameLine: true,
-  trailingComma: "es5",
+  trailingComma: 'es5',
   overrides: [
     {
-      files: "*.less",
+      files: '*.less',
       options: {
-        printWidth: 160
-      }
+        printWidth: 160,
+      },
     },
     {
-      files: "*.css",
+      files: '*.css',
       options: {
-        printWidth: 160
-      }
-    }
-  ]
-};
+        printWidth: 160,
+      },
+    },
+  ],
+}
