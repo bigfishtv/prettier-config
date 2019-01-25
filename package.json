@@ -6,5 +6,8 @@
   "license": "MIT",
   "devDependencies": {
     "prettier": "^1.16.1"
+  },
+  "scripts": {
+    "postpublish": "git push --follow-tags"
   }
 }
