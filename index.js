@@ -3,5 +3,13 @@ module.exports = {
   singleQuote: true,
   semi: false,
   jsxBracketSameLine: true,
-  trailingComma: "es5"
+  trailingComma: "es5",
+  overrides: [
+    {
+      files: "*.[less|css]",
+      options: {
+        printWidth: 160
+      }
+    }
+  ]
 };
