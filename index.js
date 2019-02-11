@@ -8,15 +8,9 @@ module.exports = {
   trailingComma: 'es5',
   overrides: [
     {
-      files: '*.less',
+      files: '*.{css,less}',
       options: {
-        printWidth: 160,
-      },
-    },
-    {
-      files: '*.css',
-      options: {
-        printWidth: 160,
+        printWidth: 200,
       },
     },
   ],
