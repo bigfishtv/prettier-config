@@ -5,6 +5,8 @@
 ```sh
 yarn add -D @bigfishtv/prettier-config
 echo "module.exports = require('@bigfishtv/prettier-config')" > prettier.config.js
+echo "package.json" >> .prettierignore
+echo "composer.json" >> .prettierignore
 ```
 
 ## Prettier Config
