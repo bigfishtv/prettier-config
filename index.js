@@ -4,7 +4,8 @@ module.exports = {
   printWidth: 120,
   singleQuote: true,
   semi: false,
-  jsxBracketSameLine: true,
+  bracketSameLine: true,
+  jsxBracketSameLine: true, // deprecated in prettier v2.4.0, keeping for backwards compat
   trailingComma: 'es5',
   overrides: [
     {
