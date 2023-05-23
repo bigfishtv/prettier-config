@@ -5,7 +5,7 @@
   "repository": "https://github.com/bigfishtv/prettier-config",
   "license": "MIT",
   "devDependencies": {
-    "prettier": "^1.16.1"
+    "prettier": "^2.8.8"
   },
   "scripts": {
     "postpublish": "git push --follow-tags"
